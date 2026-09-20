@@ -1,8 +1,8 @@
- Marginalia Books
+Marginalia Books
 
 A simple multi-page website for Marginalia Books, a small independent bookstore in Bayrampasa, Istanbul. The site is built with plain HTML and was made as a web programming project.
 
- What's on the site
+What's on the site
 
 The website has four pages, and each one has a navigation menu at the top so you can move between them easily.
 
@@ -25,19 +25,19 @@ The website has four pages, and each one has a navigation menu at the top so you
     │       └── shelves.svg
     └── README.md
 
- How to run it
+How to run it
 
 There is nothing to install. Download or clone the repository, then open `index.html` in any web browser.
 
     git clone https://github.com/eylulyerl2/web-programming.git
 
- Good to know
+Good to know
 
 - The site uses only HTML for now, so there is no custom styling or JavaScript yet.
 - The contact form is just the front end. It checks that the name and email are filled in, but it does not send the message anywhere.
 - All images are SVG files stored in `assets/images/`.
 
-  Project status
+Project status
 
 The first version of this project was submitted as a course assignment. I am still working on the website, so new pages, styling, and features may be added over time.
 
