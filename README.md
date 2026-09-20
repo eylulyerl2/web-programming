@@ -1,43 +1,31 @@
-Marginalia Books
+# Marginalia Books
 
-A simple multi-page website for Marginalia Books, a small independent bookstore in Bayrampasa, Istanbul. The site is built with plain HTML and was made as a web programming project.
+This is my HTML assignment for my Web Programming course. I made a 4 page website using only HTML5.
 
-What's on the site
+## Theme
 
-The website has four pages, and each one has a navigation menu at the top so you can move between them easily.
+The website is for Marginalia Books, a small independent bookstore in Bayrampasa, Istanbul. It has a home page, an about page, a services page with a table, and a contact page with a form.
 
-- Home (`index.html`): A short welcome to the bookstore and a look at the reading corner upstairs, where visitors can sit and read for free.
-- About (`about.html`): The story behind the store, some good-to-know details like opening days, a photo of the bookshelves, and a small FAQ about selling used books.
-- Services (`services.html`): A table of everything the store offers, such as special orders, book repair, gift wrapping, and the weekly book club, with prices and how long each one takes.
-- Contact (`contact.html`): A contact form where visitors can leave their name, email, a preferred date, a subject, and a message.
-
-## Project structure
+## File Organization
 
     web-programming/
-    ├── index.html
-    ├── about.html
-    ├── services.html
-    ├── contact.html
-    ├── assets/
-    │   └── images/
-    │       ├── storefront.svg
-    │       ├── reading-nook.svg
-    │       └── shelves.svg
-    └── README.md
+    ├── index.html      -> home page 
+    ├── about.html      -> about page 
+    ├── services.html   -> services page 
+    ├── contact.html    -> contact page 
+    └── assets/
+        └── images/     -> the images used in the pages 
 
-How to run it
+All 4 pages have the same header and navigation menu on top, so you can go between pages easily. All links are relative (like `about.html`), not full URLs.
 
-There is nothing to install. Download or clone the repository, then open `index.html` in any web browser.
+## HTML5 Elements Used
 
-    git clone https://github.com/eylulyerl2/web-programming.git
+- **Page structure:** `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`
+- **Text:** headings, paragraphs, lists, `blockquote`, `mark`, `time`, `details` and `summary`
+- **Images:** `img` with alt text, width and height, and `figure` with `figcaption`
+- **Table:** `thead`, `tbody`, `tfoot` and `colspan`
+- **Form:** `form`, `fieldset`, `legend`, `label`, text, email and date inputs, `select`, `textarea` and a submit button
 
-Good to know
 
-- The site uses only HTML for now, so there is no custom styling or JavaScript yet.
-- The contact form is just the front end. It checks that the name and email are filled in, but it does not send the message anywhere.
-- All images are SVG files stored in `assets/images/`.
 
-Project status
-
-The first version of this project was submitted as a course assignment. I am still working on the website, so new pages, styling, and features may be added over time.
 
