@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Illustration of the Marginalia Books storefront at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d4a63"/>
+      <stop offset="60%" stop-color="#7c6a70"/>
+      <stop offset="100%" stop-color="#d9a06a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe6b0"/>
+      <stop offset="100%" stop-color="#f0c069"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="660" cy="120" r="28" fill="#f6e7c4" opacity="0.85"/>
+
+  <!-- neighbouring rooftops -->
+  <path d="M0 250 L90 250 L90 200 L150 200 L150 260 L0 260 Z" fill="#2f3648" opacity="0.7"/>
+  <path d="M660 260 L660 190 L730 190 L730 225 L800 225 L800 260 Z" fill="#2f3648" opacity="0.7"/>
+
+  <!-- pavement -->
+  <rect y="410" width="800" height="90" fill="#4a4038"/>
+  <rect y="410" width="800" height="8" fill="#5d5148"/>
+
+  <!-- building -->
+  <rect x="140" y="120" width="520" height="292" fill="#8a4a38"/>
+  <rect x="140" y="120" width="520" height="18" fill="#6f3a2c"/>
+
+  <!-- sign board -->
+  <rect x="200" y="150" width="400" height="62" rx="6" fill="#2b2320"/>
+  <text x="400" y="185" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="4" fill="#e8d7b6">MARGINALIA</text>
+  <text x="400" y="204" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="7" fill="#c69a5c">BOOKS ~ EST. 2019</text>
+
+  <!-- striped awning -->
+  <g>
+    <path d="M150 224 L650 224 L620 276 L180 276 Z" fill="#b5563a"/>
+    <g fill="#e8d7b6">
+      <path d="M190 224 L228 224 L206 276 L172 276 Z"/>
+      <path d="M266 224 L304 224 L288 276 L250 276 Z"/>
+      <path d="M342 224 L380 224 L370 276 L332 276 Z"/>
+      <path d="M418 224 L456 224 L452 276 L414 276 Z"/>
+      <path d="M494 224 L532 224 L534 276 L496 276 Z"/>
+      <path d="M570 224 L608 224 L616 276 L578 276 Z"/>
+    </g>
+    <rect x="150" y="218" width="500" height="10" rx="4" fill="#8f3f2a"/>
+  </g>
+
+  <!-- left window -->
+  <rect x="172" y="292" width="188" height="110" rx="4" fill="url(#glow)"/>
+  <rect x="172" y="292" width="188" height="110" rx="4" fill="none" stroke="#5c3226" stroke-width="7"/>
+  <line x1="266" y1="292" x2="266" y2="402" stroke="#5c3226" stroke-width="5"/>
+  <g>
+    <rect x="192" y="352" width="14" height="46" fill="#b5563a"/>
+    <rect x="210" y="342" width="12" height="56" fill="#6b7f5e"/>
+    <rect x="226" y="360" width="16" height="38" fill="#3d4a63"/>
+    <rect x="286" y="346" width="13" height="52" fill="#d8a34a"/>
+    <rect x="303" y="358" width="15" height="40" fill="#8a4a38"/>
+    <rect x="322" y="350" width="11" height="48" fill="#6b7f5e"/>
+  </g>
+
+  <!-- right window -->
+  <rect x="440" y="292" width="188" height="110" rx="4" fill="url(#glow)"/>
+  <rect x="440" y="292" width="188" height="110" rx="4" fill="none" stroke="#5c3226" stroke-width="7"/>
+  <line x1="534" y1="292" x2="534" y2="402" stroke="#5c3226" stroke-width="5"/>
+  <g>
+    <rect x="460" y="344" width="13" height="54" fill="#3d4a63"/>
+    <rect x="477" y="356" width="16" height="42" fill="#d8a34a"/>
+    <rect x="497" y="348" width="12" height="50" fill="#b5563a"/>
+    <rect x="556" y="352" width="15" height="46" fill="#6b7f5e"/>
+    <rect x="575" y="340" width="12" height="58" fill="#8a4a38"/>
+    <rect x="591" y="356" width="14" height="42" fill="#3d4a63"/>
+  </g>
+
+  <!-- door -->
+  <rect x="372" y="286" width="56" height="126" rx="4" fill="#5c3226"/>
+  <rect x="380" y="296" width="40" height="52" rx="3" fill="#ffe6b0" opacity="0.9"/>
+  <circle cx="418" cy="372" r="4" fill="#d8a34a"/>
+  <rect x="368" y="404" width="64" height="10" rx="3" fill="#41231a"/>
+
+  <!-- sandwich board -->
+  <path d="M676 412 L692 356 L712 356 L700 412 Z" fill="#6b5240"/>
+  <path d="M700 412 L712 356 L732 356 L748 412 Z" fill="#8a6a50"/>
+  <text x="716" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#f4ece0">OPEN</text>
+
+  <!-- planter -->
+  <rect x="96" y="372" width="46" height="40" rx="4" fill="#6f3a2c"/>
+  <path d="M119 372 C 100 350 104 326 119 312 C 134 326 138 350 119 372 Z" fill="#6b7f5e"/>
+
+  <!-- lamp post -->
+  <rect x="58" y="250" width="7" height="162" fill="#2b2320"/>
+  <circle cx="61" cy="244" r="15" fill="#ffe6b0"/>
+</svg>
